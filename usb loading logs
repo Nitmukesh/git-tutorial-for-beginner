@@ -1,0 +1,49 @@
+db: Running query 'SELECT * FROM inotify WHERE wd = 2;'                                                                      
+[2018-10-31 13:52:28] [  LOG]     scan: Directory /mnt/usb/sdb1 event: 0x40000100, cookie 0x0, wd 2                                                                                                         
+[2018-10-31 13:52:28] [  LOG]     scan: process_inotify_dir, /mnt/usb/sdb1 IN_CREATE                                                                                                                        
+[2018-10-31 13:52:28] [  LOG]     dacp: DACP request: /ctrl-int/1/playstatusupdate?revision-number=0&session-id=                                                                                            
+[2018-10-31 13:52:28] [DEBUG]     dacp: dacp_reply_playstatusupdate, last_reply_state=3, cur_reply_state=3                                                                                                  
+[2018-10-31 13:52:28] [DEBUG]   player: Player status: paused                                                                                                                                               
+[2018-10-31 13:52:28] [DEBUG]       db: Running query 'BEGIN TRANSACTION;'                                                                                                                                  
+[2018-10-31 13:52:28] [DEBUG]       db: Starting enum 'SELECT * FROM queue WHERE id = 1 ORDER BY pos ASC;'                                                                                                  
+[2018-10-31 13:52:28] [DEBUG]       db: Running query 'END TRANSACTION;'                                                                                                                                    
+[2018-10-31 13:52:28] [DEBUG]       db: Running query 'SELECT pos FROM queue WHERE id = 1;'                                                                                                                 
+[2018-10-31 13:52:28] [  LOG]     dacp: DACP request: /ctrl-int/1/playstatusupdate?revision-number=0&session-id=                                                                                            
+[2018-10-31 13:52:28] [DEBUG]     dacp: dacp_reply_playstatusupdate, last_reply_state=3, cur_reply_state=3                                                                                                  
+[2018-10-31 13:52:28] [DEBUG]   player: Player status: paused                                                                                                                                               
+[2018-10-31 13:52:28] [DEBUG]       db: Running query 'BEGIN TRANSACTION;'                                                                                                                                  
+[2018-10-31 13:52:28] [DEBUG]       db: Starting enum 'SELECT * FROM queue WHERE id = 1 ORDER BY pos ASC;'                                                                                                  
+[2018-10-31 13:52:28] [DEBUG]       db: Running query 'END TRANSACTION;'                                                                                                                                    
+[2018-10-31 13:52:28] [DEBUG]       db: Running query 'SELECT pos FROM queue WHERE id = 1;'                                                                                                                 
+[2018-10-31 13:52:29] [  LOG]     dacp: DACP request: /ctrl-int/1/playstatusupdate?revision-number=0&session-id=                                                                                            
+[2018-10-31 13:52:29] [DEBUG]     dacp: dacp_reply_playstatusupdate, last_reply_state=3, cur_reply_state=3                                                                                                  
+[2018-10-31 13:52:29] [DEBUG]   player: Player status: paused                                                                                                                                               
+[2018-10-31 13:52:29] [DEBUG]       db: Running query 'BEGIN TRANSACTION;'                                                                                                                                  
+[2018-10-31 13:52:29] [DEBUG]       db: Starting enum 'SELECT * FROM queue WHERE id = 1 ORDER BY pos ASC;'                                                                                                  
+[2018-10-31 13:52:29] [DEBUG]       db: Running query 'END TRANSACTION;'                                                                                           
+[2018-10-31 13:52:29] [DEBUG]       db: Running query 'SELECT pos FROM queue WHERE id = 1;'                                                                            
+[2018-10-31 13:52:29] [  LOG]     dacp: DACP request: /ctrl-int/1/playstatusupdate?revision-number=0&session-id=                                                       
+[2018-10-31 13:52:29] [DEBUG]     dacp: dacp_reply_playstatusupdate, last_reply_state=3, cur_reply_state=3                                                             
+[2018-10-31 13:52:29] [DEBUG]   player: Player status: paused                                                                                                                                               
+[2018-10-31 13:52:29] [DEBUG]       db: Running query 'BEGIN TRANSACTION;'                                                                                                                                  
+[2018-10-31 13:52:29] [DEBUG]       db: Starting enum 'SELECT * FROM queue WHERE id = 1 ORDER BY pos ASC;'                                                                                                  
+[2018-10-31 13:52:29] [DEBUG]       db: Running query 'END TRANSACTION;'                                                                                                                                    
+[2018-10-31 13:52:29] [DEBUG]       db: Running query 'SELECT pos FROM queue WHERE id = 1;'                                                                                                                 
+[2018-10-31 13:52:30] [  LOG]     dacp: DACP request: /ctrl-int/1/playstatusupdate?revision-number=0&session-id=                                                                                            
+[2018-10-31 13:52:30] [DEBUG]     dacp: dacp_reply_playstatusupdate, last_reply_state=3, cur_reply_state=3                                                                                                  
+[2018-10-31 13:52:30] [DEBUG]   player: Player status: paused                                                                                                                                               
+[2018-10-31 13:52:30] [DEBUG]       db: Running query 'BEGIN TRANSACTION;'                                                                                          
+[2018-10-31 13:52:30] [DEBUG]       db: Starting enum 'SELECT * FROM queue WHERE id = 1 ORDER BY pos ASC;'                                                                                                  
+[2018-10-31 13:52:30] [DEBUG]       db: Running query 'END TRANSACTION;'                                                                                                                                    
+[2018-10-31 13:52:30] [DEBUG]       db: Running query 'SELECT pos FROM queue WHERE id = 1;'                                                                                                                 
+[2018-10-31 13:52:30] [  LOG]     dacp: DACP request: /ctrl-int/1/playstatusupdate?revision-number=0&session-id=                                                                                            
+[2018-10-31 13:52:30] [DEBUG]     dacp: dacp_reply_playstatusupdate, last_reply_state=3, cur_reply_state=3                                                                                                  
+[2018-10-31 13:52:30] [DEBUG]   player: Player status: paused                                                                                                                                               
+[2018-10-31 13:52:30] [DEBUG]       db: Running query 'BEGIN TRANSACTION;'                                                                                                                                  
+[2018-10-31 13:52:30] [DEBUG]       db: Starting enum 'SELECT * FROM queue WHERE id = 1 ORDER BY pos ASC;'                                                    
+[2018-10-31 13:52:30] [DEBUG]       db: Running query 'END TRANSACTION;'                                                                                               
+[2018-10-31 13:52:30] [DEBUG]       db: Running query 'SELECT pos FROM queue WHERE id = 1;'                                                                                                                 
+[2018-10-31 13:52:31] [DEBUG]       db: Running query 'SELECT d.id FROM directories d WHERE d.virtual_path = '/file:/mnt/usb';'                                                                   
+[2018-10-31 13:52:31] [  LOG]     scan: process_inotify_dir rescan /mnt/usb/sdb1                                                                                                                            
+[2018-10-31 13:52:31] [DEBUG]   player: Action is stop                                                                                                                                                      
+[2018-10-31 13:52:31] [DEBUG]    xcode: Flushing output stream #0 encoder               
